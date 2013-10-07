@@ -1,0 +1,48 @@
+{
+  "name": "janus-console",
+  "description": "a trace, debug, and console tool for janus.",
+  "version": "0.1.0",
+  "author": "Clint Tseng <clint.tseng@socrata.com>",
+  "homepage": "http://janusjs.org",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/socrata/janus-console.git"
+  },
+  "bugs": {
+    "url": "https://github.com/socrata/janus-console/issues"
+  },
+  "licenses": [{
+    "type": "WTFPL",
+    "url": "http://www.wtfpl.net/txt/copying"
+  }],
+  "main": "lib/janus-console",
+  "scripts": {
+    "test": "node .grunt.js test"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [ "janus", "debug" ],
+  "dependencies": {
+    "eventemitter2": "~0.4.11",
+    "janus": "git://github.com/clint-tseng/janus.git#master",
+
+    "domino": "~1.0.11",
+    "zepto-node": "~1.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "mocha": "~1.9.0",
+    "should": "~1.2.2",
+    "jade": "~0.30.0",
+
+
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-coffee": "~0.6.6",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.0",
+
+    "grunt-simple-mocha": "~0.4.0"
+  }
+}
