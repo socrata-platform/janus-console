@@ -13,7 +13,7 @@ class TraverseAction extends store.Store
       if !parts? or parts.length is 0
         this.request.setValue(store.Request.state.UserError('Invalid traversal syntax.'))
       else
-        currentPage = this.options.pageHistory.at(-1)
+        currentPage = this.options.pageHistory?.at(-1)
 
         locals =
           page: currentPage?.subject

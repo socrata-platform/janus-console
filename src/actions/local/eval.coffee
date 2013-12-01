@@ -7,7 +7,7 @@ CommandRequest = require('../../models/command').request.Command
 class EvalAction extends store.Store
   _handle: ->
     ev = =>
-      currentPage = this.options.pageHistory.at(-1)
+      currentPage = this.options.pageHistory?.at(-1)
       locals =
         window: {}
         document: {}
@@ -15,7 +15,7 @@ class EvalAction extends store.Store
         pageView: currentPage
         pageModel: currentPage?.subject
         allStores: this.options.storeHistory
-        activeStores: this.options.storeHistory.filter((_store) -> _store.request.map((state) -> !(state instanceof store.Request.state.type.Complete)))
+        activeStores: this.options.storeHistory?.filter((_store) -> _store.request.map((state) -> !(state instanceof store.Request.state.type.Complete)))
 
       for k, v of this.request.options.env
         locals[k] = v?.value?.successOrElse(null)
