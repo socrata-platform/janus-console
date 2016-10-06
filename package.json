@@ -1,7 +1,7 @@
 {
   "name": "janus-console",
   "description": "a trace, debug, and console tool for janus.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Clint Tseng <clint.tseng@socrata.com>",
   "homepage": "http://janusjs.org",
   "repository": {
