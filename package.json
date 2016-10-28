@@ -8,6 +8,9 @@
     "type": "git",
     "url": "git://github.com/socrata/janus-console.git"
   },
+  "publishConfig": {
+    "registry": "https://socrata.artifactoryonline.com/socrata/api/npm/npm-local"
+  },
   "bugs": {
     "url": "https://github.com/socrata/janus-console/issues"
   },
