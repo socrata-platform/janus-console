@@ -1,7 +1,7 @@
 {
   "name": "janus-console",
   "description": "a trace, debug, and console tool for janus.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Clint Tseng <clint.tseng@socrata.com>",
   "homepage": "http://janusjs.org",
   "repository": {
@@ -25,8 +25,7 @@
   "keywords": [ "janus", "debug" ],
   "dependencies": {
     "eventemitter2": "~0.4.11",
-    "janus": "git://github.com/clint-tseng/janus.git#master",
-
+    "janus": "0.2.0",
     "domino": "~1.0.11",
     "zepto-node": "~1.0.0"
   },
