@@ -1,18 +1,18 @@
 {
   "name": "janus-console",
   "description": "a trace, debug, and console tool for janus.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Clint Tseng <clint.tseng@socrata.com>",
   "homepage": "http://janusjs.org",
   "repository": {
     "type": "git",
-    "url": "git://github.com/socrata/janus-console.git"
+    "url": "git://github.com/socrata-platform/janus-console.git"
   },
   "publishConfig": {
     "registry": "https://repo.socrata.com/artifactory/api/npm/npm-local"
   },
   "bugs": {
-    "url": "https://github.com/socrata/janus-console/issues"
+    "url": "https://github.com/socrata-platform/janus-console/issues"
   },
   "licenses": [{
     "type": "WTFPL",
@@ -28,7 +28,7 @@
   "keywords": [ "janus", "debug" ],
   "dependencies": {
     "eventemitter2": "~0.4.11",
-    "janus": "0.2.0",
+    "janus": "0.2.1",
     "domino": "~1.0.11",
     "zepto-node": "~1.0.0"
   },
